@@ -2,7 +2,7 @@
 
 A comprehensive relational database solution built from scratch using **PostgreSQL**. This project highlights Enterprise Schema Design, Data Administration (DBA) practices, Core Security, Index Optimization, and Advanced Business Intelligence queries.
 
-## 📐 Database Relational Schema Layout
+## Database Relational Schema Layout
 The system implements a normalized relational model ensuring strong referential integrity across transactional entities:
 *   **customers**: Centralized profile data with explicit uniqueness constraints.
 *   **products**: System inventory catalog enforcing monetary storage scaling (`NUMERIC`).
@@ -11,7 +11,7 @@ The system implements a normalized relational model ensuring strong referential 
 
 ---
 
-## 🚀 Key Database Administration & Architecture Capabilities Proved:
+## Key Database Administration & Architecture Capabilities Proved:
 *   **Advanced Multi-Table Joins:** Linking multi-layered junction tables smoothly to generate complete transactional views.
 *   **Data Aggregation & Financial Analysis:** Executing deep calculations like Customer Lifetime Value (LTV) and individual category net profit metrics.
 *   **Common Table Expressions (CTEs):** Writing organized, multi-step relational pipelines instead of unmaintainable nested subqueries.
@@ -21,14 +21,14 @@ The system implements a normalized relational model ensuring strong referential 
 
 ---
 
-## 💻 Technical Stack Applied
+## Technical Stack Applied
 *   **Engine Backend:** PostgreSQL
 *   **Interface Manager:** pgAdmin 4
 *   **Language Scripting:** Data Definition Language (DDL), Data Manipulation Language (DML)
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 *   `database_setup_and_queries.sql`: Complete production script containing structural tables, mock transaction records and complex optimization routines.
 
 ---
